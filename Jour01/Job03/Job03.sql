@@ -1,4 +1,7 @@
--- Active: 1706522342473@@127.0.0.1@3306@LaPlateforme
+-- Sélectionner la base de données
+USE LaPlateforme;
+
+-- Création de la table "etudiant"
 CREATE TABLE etudiant (
     id INT AUTO_INCREMENT PRIMARY KEY,
     nom VARCHAR(255) NOT NULL,
