@@ -1,5 +1,7 @@
--- Active: 1706522342473@@127.0.0.1@3306@LaPlateforme
+-- Sélectionner la base de données
+USE LaPlateforme;
 
+-- Création de la table "etudiant"
 INSERT INTO etudiant (nom, prenom, age, email) VALUES
     ('Spaghetti', 'Betty', 23, 'betty.Spaghetti@laplateforme.io'),
     ('Chuck', 'Steak', 45, 'chuck.steak@laplateforme.io'),
@@ -8,4 +10,5 @@ INSERT INTO etudiant (nom, prenom, age, email) VALUES
     ('Dupuis', 'Gertrude', 20, 'gertrude.dupuis@laplateforme.io');
 
 
+-- Vérification des données
 SHOW TABLES;
