@@ -1,4 +1,4 @@
--- Sélectionner la base de données
+-- Sélectionner la base de données 
 USE LaPlateforme;
 
 -- Compter le nombre d'étudiants
