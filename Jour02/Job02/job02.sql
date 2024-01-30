@@ -1,3 +1,6 @@
+-- Sélectionner la base de données
+USE LaPlateforme;
+
 -- Création de la table "etage"
 CREATE TABLE etage (
     id INT AUTO_INCREMENT PRIMARY KEY,

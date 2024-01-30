@@ -1,3 +1,6 @@
+-- Sélectionner la base de données
+USE LaPlateforme;
+
 -- Ajout des données à la table "etage"
 INSERT INTO etage (nom, numero, superficie) VALUES
 ('RDC', 0, 500),
