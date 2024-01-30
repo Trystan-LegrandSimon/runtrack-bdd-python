@@ -1,0 +1,20 @@
+-- Ajout des données à la table "etage"
+INSERT INTO etage (nom, numero, superficie) VALUES
+('RDC', 0, 500),
+('R+1', 1, 500);
+
+-- Ajout des données à la table "salle"
+INSERT INTO salle (nom, id_etage, capacite) VALUES
+('Lounge', 1, 100),
+('Studio Son', 1, 5),
+('Broadcasting', 2, 50),
+('Bocal Peda', 2, 4),
+('Coworking', 2, 80),
+('Studio Video', 2, 5);
+
+-- Vérification des données
+-- Sélectionner tous les enregistrements de la table "etage"
+SELECT * FROM etage;
+
+-- Sélectionner tous les enregistrements de la table "salle"
+SELECT * FROM salle;
